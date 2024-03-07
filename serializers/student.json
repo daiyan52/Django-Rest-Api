@@ -1,0 +1,38 @@
+[
+{
+    "model": "testapp.student",
+    "pk": 1,
+    "fields": {
+        "name": "Daiyan",
+        "roll": 52,
+        "address": "Bihar"
+    }
+},
+{
+    "model": "testapp.student",
+    "pk": 2,
+    "fields": {
+        "name": "Sana",
+        "roll": 34,
+        "address": "Kolkata"
+    }
+},
+{
+    "model": "testapp.student",
+    "pk": 3,
+    "fields": {
+        "name": "Rizwan Naik",
+        "roll": 201,
+        "address": "Kashmir"
+    }
+},
+{
+    "model": "testapp.student",
+    "pk": 4,
+    "fields": {
+        "name": "Raju Kuamr",
+        "roll": 55,
+        "address": "Bihar"
+    }
+}
+]

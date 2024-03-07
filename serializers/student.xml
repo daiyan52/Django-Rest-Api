@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="testapp.student" pk="1">
+        <field name="name" type="CharField">Daiyan</field>
+        <field name="roll" type="IntegerField">52</field>
+        <field name="address" type="CharField">Bihar</field>
+    </object>
+    <object model="testapp.student" pk="2">
+        <field name="name" type="CharField">Sana</field>
+        <field name="roll" type="IntegerField">34</field>
+        <field name="address" type="CharField">Kolkata</field>
+    </object>
+    <object model="testapp.student" pk="3">
+        <field name="name" type="CharField">Rizwan Naik</field>
+        <field name="roll" type="IntegerField">201</field>
+        <field name="address" type="CharField">Kashmir</field>
+    </object>
+    <object model="testapp.student" pk="4">
+        <field name="name" type="CharField">Raju Kuamr</field>
+        <field name="roll" type="IntegerField">55</field>
+        <field name="address" type="CharField">Bihar</field>
+    </object>
+</django-objects>

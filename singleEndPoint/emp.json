@@ -1,0 +1,20 @@
+[
+{
+    "model": "testapp.employee",
+    "pk": 1,
+    "fields": {
+        "name": "Daiyan Alam",
+        "salary": 800000.0,
+        "address": "Siwan,  Bihar"
+    }
+},
+{
+    "model": "testapp.employee",
+    "pk": 2,
+    "fields": {
+        "name": "Raju Kumar",
+        "salary": 70000.0,
+        "address": "Hajipur , Bihar"
+    }
+}
+]
