@@ -1,0 +1,3 @@
+http POST http://127.0.0.1:8000/get-api-token/ username="daiyan52" password="Alam@123"
+
+http  http://127.0.0.1:8000/api/ "authorization:Token 2759c906f3923b3e79ad5845390745617246d08a"
