@@ -1,0 +1,27 @@
+pip install djangorestframework-simplejwt
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
+http POST http://localhost:8000/api/token/ username="daiyan52" password="Alam@123"
+
+http://127.0.0.1:8000/api/ "Authorization:JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNTc2NDAxLCJpYXQiOjE3MTA1NzYxMDEsImp0aSI6IjY2MzQ1MTI3NmMyODRmMGViMGRlNGI1OGUwZGQ4MmY1IiwidXNlcl9pZCI6MX0.kc8zugX_UMWhTe_FsS99wvjQTw6TzWO-8v00JEI3tKk"
+HTTP/1.1 200 OK
+Allow: POST, OPTIONS
+Content-Length: 483
+Content-Type: application/json
+Cross-Origin-Opener-Policy: same-origin
+Date: Sat, 16 Mar 2024 08:01:41 GMT
+Referrer-Policy: same-origin
+Server: WSGIServer/0.2 CPython/3.11.5
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+{
+    "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNTc2NDAxLCJpYXQiOjE3MTA1NzYxMDEsImp0aSI6IjY2MzQ1MTI3NmMyODRmMGViMGRlNGI1OGUwZGQ4MmY1IiwidXNlcl9pZCI6MX0.kc8zugX_UMWhTe_FsS99wvjQTw6TzWO-8v00JEI3tKk",
+    "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxMDY2MjUwMSwiaWF0IjoxNzEwNTc2MTAxLCJqdGkiOiIzZjY4ZTIxM2NlM2I0NTBjYTc2MjlkMWNjM2Q2MWZlMCIsInVzZXJfaWQiOjF9.6M6hLW9KqzusK0N4UQ7_OQGE15L2kJi_ECK_r3hhLx0"
+}
+
